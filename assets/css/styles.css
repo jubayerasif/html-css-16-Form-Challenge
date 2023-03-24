@@ -1,0 +1,81 @@
+body {
+    background-color: #ECF9FD;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+header > h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: #F4F8FE;
+    padding: 1rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    /* box-shadow: rgb(97, 97, 97); */
+    box-shadow: 2px 2px 8px rgb(199, 199, 199);
+}
+label{
+    margin-bottom: 0.5rem;
+    display: block;
+}
+input,
+textarea,
+select {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgba(184, 184, 184);
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+}
+textarea{
+    resize: none;
+}
+input:focus,
+textarea:focus{
+    background-color: #2F3A56;
+    color: #fff;
+    border-color: #2F3A56;
+}
+
+button{
+    /* display: block; */
+    /*font: normal 1rem 'Roboto', sans-serif;
+    */
+    font: inherit;
+    background-color: #2F3A56;
+    color: #fff;
+    border: 1px solid #2F3A56;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4b5673;
+    border-color: #2F3A56;
+}
+.form-control-inline{
+    display: flex;
+}
+.form-control-inline input{
+    width: auto;
+    margin-right: .5rem;
+}
