@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Form Challenge</title>
 </head>
+
 <body>
     <header>
         <h1>Contact Us</h1>
@@ -37,15 +39,40 @@
                             <textarea name="" id="usermessage" row="8"></textarea>
                         </li>
                         <li>
-                            <label for="">How did you find us?</label>
-                            <input type="text" name="" id="" required>
+                            <label for="hdyfu">How did you find us?</label>
+                            <select name="hdyfu" id="hdyfu">
+                                <option value="">Web Research</option>
+                                <option value="">Youtube</option>
+                                <option value="">Facebook</option>
+                                <option value="">Twitter</option>
+                            </select>
                         </li>
                     </ul>
                 </section>
                 <section>
                     <h1>How should we reply?</h1>
+                    <ul>
+                        <li class="form-control-inline">
+                            <input type="checkbox" name="contact" id="contact-email" >
+                            <label for="contact-email">Send me a email</label>
+                        </li>
+                        <li class="form-control-inline">
+                            <input type="checkbox" name="contact" id="contact-phone" >
+                            <label for="contact-phone">Call me</label>
+                        </li>
+                        <li class="form-control-inline">
+                            <input type="checkbox" name="none" id="noreply" >
+                            <label for="noreply">Don't reply</label>
+                        </li>
+                    </ul>
                 </section>
-
+                <br>
+                <section>
+                    <div class="form-control-inline">
+                        <input type="checkbox" name="terms" id="agree-terms" required />
+                        <label for="agree-terms">Agree to the terms?</label>
+                    </div>
+                </section>
                 <section>
                     <button type="reset">Clear</button>
                     <button type="submit">Submit</button>
@@ -54,4 +81,5 @@
         </div>
     </main>
 </body>
+
 </html>
