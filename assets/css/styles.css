@@ -14,6 +14,9 @@ ul{
     margin: 0;
     padding: 0;
 }
+section{
+    margin-bottom: 1rem;
+}
 form{
     width: 30rem;
     margin: 3rem auto;
@@ -27,21 +30,26 @@ form{
     box-shadow: 0px 2px 8px rgb(199, 199, 199);
 }
 label{
-    margin-bottom: 0.5rem;
     display: block;
-    opacity: 65%;
+    color: rgb(66, 76, 97);
+    margin-bottom: 0.5rem;
 }
 input,
 textarea,
 select {
     width: 100%;
+    font: inherit;
+    padding: 0.5rem;
+    color: rgb(61, 58, 58);
     display: block;
     margin-bottom: 1rem;
-    box-sizing: border-box;
-    font: inherit;
     border: 1px solid rgba(184, 184, 184);
-    padding: 0.25rem;
-    color: rgb(61, 58, 58);
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 textarea{
     resize: none;
