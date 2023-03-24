@@ -29,6 +29,7 @@ form{
 label{
     margin-bottom: 0.5rem;
     display: block;
+    opacity: 65%;
 }
 input,
 textarea,
