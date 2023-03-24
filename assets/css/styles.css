@@ -63,9 +63,6 @@ textarea:focus{
 
 
 button{
-    /* display: block; */
-    /*font: normal 1rem 'Roboto', sans-serif;
-    */
     font: inherit;
     background-color: #2F3A56;
     color: #fff;
@@ -78,9 +75,24 @@ button{
     -o-border-radius: 4px;
     cursor: pointer;
 }
-button:hover{
+/* button:hover{
     background-color: #4b5673;
     border-color: #2F3A56;
+} */
+.btn-filled{
+    color: #fff;
+    background-color: #2F3A56;
+}
+.btn-empty{
+    background-color: transparent;
+    color: #2F3A56;
+}
+.btn-filled:hover{
+    background-color: #515d7b;
+    border-color: #515d7b;
+}
+.btn-empty:hover{
+    background-color: #CBD3E3;
 }
 .form-control-inline{
     display: flex;
